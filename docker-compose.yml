@@ -1,0 +1,11 @@
+services:
+  slide-review:
+    build: .
+    ports:
+      - "08:3001"
+    volumes:
+      - slide-review-data:/app/server/data
+    restart: unless-stopped
+
+volumes:
+  slide-review-data:
