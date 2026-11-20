@@ -1,4 +1,4 @@
-# Slide Review — Pass/Fail Labeling Tool
+# PassMark— Pass/Fail Labeling Tool
 
 Images are stored on the local file system (compressed automatically on upload), and label data is stored in SQLite. The frontend and backend are separate; in production, Express serves the built frontend as static files, so everything runs on a single port.
 
